@@ -1,4 +1,5 @@
 {
-    "jenkins":"https://ci.example.com",
-    "git":"git@github.com:yourOrg"
+    "jenkins":"https://ci-dev.tax.service.gov.uk",
+    "nexus":"https://nexus-dev.tax.service.gov.uk",
+    "git":"git@github.tools.tax.service.gov.uk:hmrc"
 }
