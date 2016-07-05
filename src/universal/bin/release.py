@@ -61,8 +61,6 @@ jenkins_host = hosts_json['jenkins']
 jenkins_user = hosts_json.get('jenkins_user', os.environ.get("jenkins_user", None))
 jenkins_key = hosts_json.get('jenkins_key', os.environ.get("jenkins_key", None))
 
-print("Jenkins User: %s; Jenkins Token: %s" % (jenkins_user, jenkins_key))
-
 jenkins = Jenkins(jenkins_host, jenkins_user, jenkins_key)
 
 
